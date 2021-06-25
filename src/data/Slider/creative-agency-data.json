@@ -1,103 +1,103 @@
 [
   {
     "id": 1,
-    "title": "FOR WEB & MOBILE",
-    "tagline": "Digital Theme",
-    "text": "We develop products and services for ecommerce, insurance <br /> and a handful of other key industries",
+    "title": "",
+    "tagline": "",
+    "text": "",
     "image": "slides/slide-bg-1.jpg",
     "buttons": [
       {
         "id": 1,
-        "text": "START A PROJECT",
-        "link": "!#",
-        "type": "btn-white btn-rounded"
+        "text": "",
+        "link": "",
+        "type": ""
       }
     ]
   },
   {
     "id": 2,
-    "title": "EXPERIENCE DESIGN AGENCY",
-    "tagline": "Visualizing Innovation",
+    "title": "",
+    "tagline": "",
     "image": "slides/slide-bg-2.jpg",
     "bg": "",
     "buttons": [
       {
         "id": 1,
-        "text": "LEARN MORE",
-        "link": "!#",
-        "type": "btn-dark btn-rounded"
+        "text": "",
+        "link": "",
+        "type": ""
       },
       {
         "id": 2,
-        "text": "CONTACT US",
-        "link": "!#",
-        "type": "btn-outline-white btn-rounded"
+        "text": "",
+        "link": "",
+        "type": ""
       }
     ]
   },
   {
     "id": 3,
-    "title": "BUSINESS CONSULTING",
-    "tagline": "Scoda Creative Agency",
-    "text": "A digital agency focused on UX / UI and strategic development.",
+    "title": "",
+    "tagline": "",
+    "text": "",
     "image": "slides/slide-bg-3.jpg",
     "buttons": [
       {
         "id": 1,
-        "text": "SEE OUR WORK",
-        "link": "!#",
-        "type": "btn-color btn-rounded"
+        "text": "",
+        "link": "",
+        "type": ""
       }
     ]
   },
   {
     "id": 4,
-    "title": "FOR WEB & MOBILE",
-    "tagline": "Digital Theme",
-    "text": "We develop products and services for ecommerce, insurance <br /> and a handful of other key industries",
+    "title": "",
+    "tagline": "",
+    "text":  "",
     "image": "slides/slide-bg-4.jpg",
     "buttons": [
       {
         "id": 1,
-        "text": "START A PROJECT",
-        "link": "!#",
-        "type": "btn-white btn-rounded"
+        "text": "",
+        "link": "",
+        "type": ""
       }
     ]
   },
   {
     "id": 5,
-    "title": "EXPERIENCE DESIGN AGENCY",
-    "tagline": "Visualizing Innovation",
+    "title": "",
+    "tagline": "",
     "image": "slides/slide-bg-5.jpg",
     "bg": "",
     "buttons": [
       {
         "id": 1,
-        "text": "LEARN MORE",
-        "link": "!#",
-        "type": "btn-dark btn-rounded"
+        "text": "",
+        "link": "",
+        "type": ""
       },
       {
         "id": 2,
-        "text": "CONTACT US",
-        "link": "!#",
-        "type": "btn-outline-white btn-rounded"
+        "text": "",
+        "link": "",
+        "type": ""
       }
     ]
   },
   {
     "id": 6,
-    "title": "BUSINESS CONSULTING",
-    "tagline": "Scoda Creative Agency",
-    "text": "A digital agency focused on UX / UI and strategic development.",
+    "title": "",
+    "tagline": "",
+    "text": "",
     "image": "slides/slide-bg-5.jpg",
     "buttons": [
       {
         "id": 1,
-        "text": "SEE OUR WORK",
-        "link": "!#",
-        "type": "btn-color btn-rounded"
+        "text": "",
+        "link": "",
+        "type": ""
       }
     ]
   }
