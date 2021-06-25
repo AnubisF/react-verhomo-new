@@ -6,6 +6,7 @@ const WhoWeAreEight = () => (
   <section className="main-section pb-70">
     <div className="container">
       <div className="row">
+          <h3 className="container">TARJOUSPYYNTÖ</h3>
         {dataFeatures.map((feature) => (
           <FeatureBoxTwo key={feature.id} icon={feature.icon} title={feature.title}>
             {feature.text}

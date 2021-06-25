@@ -58,13 +58,12 @@ const HeaderTwo = ({ social, scrollToSection }) => {
           <div className="collapse navbar-collapse" id="navbar-menu">
             <Scrollspy
               items={[
-                "home",
-                "about",
+                "etusivu",
+                "katarina",
                 "service",
-                "team",
-                "work",
-                "pricing",
-                "contact",
+                "portfolio",
+                "kauppa",
+                "yhteystiedot",
               ]}
               currentClassName="active"
               className="nav navbar-nav navbar-right nav-scrollspy-onepage"
