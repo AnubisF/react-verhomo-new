@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "TYÖN ARVIOINTI",
+    "text": "Ota mitat verhoiltavasta kohteesta, mittojen perusteella pystymme laskemaan kangasmenekin. Ota kuva verhoiltavasta kohteesta, kuvan perusteella pystymme arvioimaan työn määrän. Lähetä tarjouspyyntö sähköpostiimme ja esitä toiveesi, muista lisätä viestiin valokuvat ja huonekalun mitat.",
+    "icon": "unique-idea"
+  },
+  {
+    "id": 2,
+    "title": "KANKAAN VALINTA",
+    "text": "Tule asioimaan verstaalle ja tutustu laajaan kangasvalikoimaan. Autamme mielellämme kankaan valinnassa.",
+    "icon": "rocket-alt-2"
+  },
+  {
+    "id": 3,
+    "title": "TARJOUKSEN LASKEMINEN",
+    "text": "Kun verhoilumateriaalit on valittu ja työn määrä on selvillä, laskemme tarjouksen työlle. Verhoilutyön hinta koostuu työn määrästä sekä asiakkaan valitsemista materiaaleista.",
+    "icon": "ui-calculator"
+  },
+  {
+    "id": 4,
+    "title": "TILAUKSEN TEKEMINEN",
+    "text": "Jokaisen tilauksen kohdalla kangas tilataan erikseen. Kankaan toimitusaika on noin 2 viikkoa. Kangas laskutetaan heti tilauksen yhteydessä, ennen verhoilutyön aloittamista. Varataan kalenterista sopiva aika verhoilutyön aloittamiselle.",
+    "icon": "basket"
+  },
+  {
+    "id": 5,
+    "title": "VERHOILUPROJEKTIN KÄYNNISTYMINEN",
+    "text": "Tuo verhoiltava huonekalu verstaalle ennakkoon sovittuna ajankohtana. Verhoilutyö käynnistyy, kun huonekalu on saapunut verstaalle. Työkohteesta riippuen verhoilutyö kestää 1 – 4 viikkoa, tai mitä on tilaus",
+    "icon": "gears"
+  },
+  {
+    "id": 6,
+    "title": "MAKSU",
+    "text": "Saat heti tiedon, kun tilauksesi on valmis. Saat laskun sähköpostiisi tai tekstiviestillä. Suorita maksu ennen tilauksen noutoa.",
+    "icon": "card"
+  },
+  {
+    "id": 7,
+    "title": "NOUTO",
+    "text": "Nouda tilaus sovittuna ajankohta, tilan puutteen vuoksi tilauksia ei voida säilyttää verstaalla pitkään. Meille on helppo tulla peräkärryn kanssa tai isolla pakettiautolla. Muistahan ottaa kantokaverit mukaan. Nauti uudesta sisustuksestasi!",
+    "icon": "check"
+  }
+]
