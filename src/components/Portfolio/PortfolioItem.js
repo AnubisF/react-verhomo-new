@@ -50,7 +50,7 @@ const PortfolioItem = ({
                   <a
                     className="alpha-lightbox"
                     href="!#"
-                    onClick={(e) => openLightbox(e, image)}
+                    onClick={(e, click) => openLightbox(e, image)}
                   >
                     <Icofont icon="search-1" />
                   </a>

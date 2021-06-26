@@ -1,154 +1,97 @@
 [
   {
     "id": 1,
-    "title": "One Four",
-    "category": "PRINT",
-    "image": "portfolio/grid/1.jpg",
-    "groups": ["all", "print", "branding"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
+    "image": "portfolio/45.jpg",
+    "groups": ["kaikki", "nojatuolit"]
   },
   {
     "id": 2,
-    "title": "And Logo",
-    "category": "BRANDING",
-    "image": "portfolio/grid/2.jpg",
-    "groups": ["all", "branding", "web"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
+    "image": "portfolio/46.jpg",
+    "groups": ["kaikki", "nojatuolit"]
   },
   {
     "id": 3,
-    "title": "Business Card",
-    "category": "BRANDING",
-    "image": "portfolio/grid/3.jpg",
-    "groups": ["all", "branding"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
+    "image": "portfolio/47.jpg",
+    "groups": ["kaikki", "nojatuolit"]
   },
   {
     "id": 4,
-    "title": "Wiley Club",
-    "category": "WEB DESIGN",
-    "image": "portfolio/grid/4.jpg",
-    "groups": ["all", "print", "design"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
+    "image": "portfolio/48.jpg",
+    "groups": ["kaikki", "print", "design"]
   },
   {
     "id": 5,
-    "title": "Scarab Ring",
-    "category": "PRINT DESIGN",
-    "image": "portfolio/grid/5.jpg",
-    "groups": ["all", "design"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
+    "image": "portfolio/49.jpg",
+    "groups": ["kaikki", "rahit"]
   },
   {
     "id": 6,
-    "title": "First Floor",
-    "category": "WEB DESIGN",
-    "image": "portfolio/grid/6.jpg",
-    "groups": ["all", "design", "web"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
+    "image": "portfolio/50.jpg",
+    "groups": ["kaikki", "design", "web"]
   },
   {
     "id": 7,
-    "title": "Flyer Design",
-    "category": "BRANDING",
-    "image": "portfolio/grid/7.jpg",
-    "groups": ["all", "design", "branding"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
+    "image": "portfolio/52.jpg",
+    "groups": ["kaikki", "design", "branding"]
   },
   {
     "id": 8,
-    "title": "Card Mocks",
-    "category": "PRINT DESIGN",
-    "image": "portfolio/grid/8.jpg",
-    "groups": ["all", "design", "print"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
+    "image": "portfolio/53.jpg",
+    "groups": ["kaikki", "design", "print"]
+  },
+  {
+    "id": 9,
+    "image": "portfolio/54.jpg",
+    "groups": ["kaikki", "design", "print"]
+  },
+  {
+    "id": 10,
+    "image": "portfolio/55.jpg",
+    "groups": ["kaikki", "design", "print"]
+  },
+  {
+    "id": 11,
+    "image": "portfolio/56.jpg",
+    "groups": ["kaikki", "design", "print"]
+  },
+  {
+    "id": 12,
+    "image": "portfolio/57.jpg",
+    "groups": ["kaikki", "design", "print"]
+  },
+  {
+    "id": 13,
+    "image": "portfolio/58.jpg",
+    "groups": ["kaikki", "design", "print"]
+  },
+  {
+    "id": 14,
+    "image": "portfolio/59.jpg",
+    "groups": ["kaikki", "design", "print"]
+  },
+  {
+    "id": 15,
+    "image": "portfolio/60.jpg",
+    "groups": ["kaikki", "design", "print"]
+  },
+  {
+    "id": 16,
+    "image": "portfolio/61.jpg",
+    "groups": ["kaikki", "design", "print"]
+  },
+  {
+    "id": 17,
+    "image": "portfolio/62.jpg",
+    "groups": ["kaikki", "design", "print"]
+  },
+  {
+    "id": 18,
+    "image": "portfolio/63.jpg",
+    "groups": ["kaikki", "design", "print"]
+  },
+  {
+    "id": 19,
+    "image": "portfolio/64.jpg",
+    "groups": ["kaikki", "design", "print"]
   }
 ]

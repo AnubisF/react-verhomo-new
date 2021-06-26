@@ -8,7 +8,7 @@ import Lightbox from "react-image-lightbox";
 
 const Portfolio = forwardRef(
   ({ filter, layout, columns, space, items, classAppend, children }, ref) => {
-    const categories = ["all", "design", "web", "branding", "print"];
+    const categories = ["kaikki", "nojatuolit", "sohvat", "tuolit", "rahit"];
     const element = useRef();
     const [shuffle, setShuffle] = useState();
 
