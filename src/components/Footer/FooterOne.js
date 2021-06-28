@@ -24,31 +24,9 @@ const FooterOne = () => (
                 </p>
               </div>
             </div>
-            {/*<div className="col-sm-6 col-md-2">*/}
-            {/*  <div className="widget widget-links">*/}
-            {/*    <h5 className="widget-title">Work With Us</h5>*/}
-            {/*    <ul>*/}
-            {/*      <li>*/}
-            {/*        <a href="#!">Themeforest</a>*/}
-            {/*      </li>*/}
-            {/*      <li>*/}
-            {/*        <a href="#!">Audio Jungle</a>*/}
-            {/*      </li>*/}
-            {/*      <li>*/}
-            {/*        <a href="#!">Code Canyon</a>*/}
-            {/*      </li>*/}
-            {/*      <li>*/}
-            {/*        <a href="#!">Video Hive</a>*/}
-            {/*      </li>*/}
-            {/*      <li>*/}
-            {/*        <a href="#!">Envato Market</a>*/}
-            {/*      </li>*/}
-            {/*    </ul>*/}
-            {/*  </div>*/}
-            {/*</div>*/}
             <div className="col-sm-6 col-md-2">
               <div className="widget widget-links">
-                <h5 className="widget-title">Useful Links</h5>
+                <h5 className="widget-title">Linkit</h5>
                 <ul>
                   <li>
                     <a href={process.env.PUBLIC_URL}>Etusivu</a>
@@ -61,9 +39,6 @@ const FooterOne = () => (
                   </li>
                   <li>
                     <a href={process.env.PUBLIC_URL}>Terms &amp; Conditions</a>
-                  </li>
-                  <li>
-                    <a href={process.env.PUBLIC_URL}>Careers</a>
                   </li>
                 </ul>
               </div>
