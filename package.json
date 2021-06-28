@@ -15,6 +15,7 @@
     "gsap": "^3.6.1",
     "html-react-parser": "^1.2.6",
     "lax.js": "^1.2.5",
+    "mapbox-gl": "^2.3.1",
     "rc-collapse": "^3.1.0",
     "react": "^17.0.2",
     "react-autosize-textarea": "^7.0.0",
