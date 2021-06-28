@@ -65,8 +65,8 @@ const KatarinaVerhoomo = () => {
             <HeroSliderSection data={dataSlider} ref={etusivu}/>
             <GridColumns ref={katariina}/>
             <OurServices
-                title="Mitä me teemme"
-                tagline="We develop big ideas that sell."
+                // title="Mitä me teemme"
+                // tagline="We develop big ideas that sell."
                 serviceImg={serviceOneImg}
                 ref={palvelut}
             />

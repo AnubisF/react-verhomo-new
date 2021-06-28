@@ -6,7 +6,10 @@ const Kauppa = forwardRef(( props, ref ) => (
     <section ref={ref}>
       <div className="container">
         <hr className="mb-50 mt-50" />
-        <div className="row">
+        <div className="row"
+             data-aos={"fade-up"}
+             data-aos-delay={200}
+             data-aos-duration={1000}>
           <div className="col-md-6 mb-20 col-sm-6">
             <h2>Verhoilumateriaalit</h2>
             <p>
