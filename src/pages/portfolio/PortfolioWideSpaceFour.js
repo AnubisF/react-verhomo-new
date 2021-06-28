@@ -9,10 +9,10 @@ import FooterOne from "../../components/Footer/FooterOne";
 const PortfolioWideSpaceFour = () => (
   <Loader>
     <HeaderOne />
-    <PageTitlePortfolio
-      title="Wide Space 4 Columns"
-      tagline="Our Recent Works"
-    />
+      <PageTitlePortfolio
+          title="Wide Space 4 Columns"
+          tagline="Our Recent Works"
+      />
     <section className="pt-100 pt-100">
       <Portfolio filter="true" columns="4" layout="wide" space="true" />
     </section>

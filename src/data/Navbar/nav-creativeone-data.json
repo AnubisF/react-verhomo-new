@@ -1,8 +1,9 @@
 [
   { "id": 1, "title": "Etusivu", "link": "etusivu" },
-  { "id": 2, "title": "Katarina", "link": "katarina" },
-  { "id": 3, "title": "Services", "link": "service" },
-  { "id": 4, "title": "Portfolio", "link": "portfolio" },
-  { "id": 5, "title": "Kauppa", "link": "kauppa" },
-  { "id": 6, "title": "Yhteystiedot", "link": "yhteystiedot" }
+  { "id": 2, "title": "Katariina", "link": "katariina" },
+  { "id": 3, "title": "Palvelut", "link": "palvelut" },
+  { "id": 4, "title": "Tarjouspyyntö", "link": "offerrequest" },
+  { "id": 5, "title": "Portfolio", "link": "portfolio" },
+  { "id": 6, "title": "Kauppa", "link": "kauppa" },
+  { "id": 7, "title": "Yhteystiedot", "link": "yhteystiedot" }
 ]

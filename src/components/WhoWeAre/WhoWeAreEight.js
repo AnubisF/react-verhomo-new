@@ -1,9 +1,9 @@
-import React from "react";
+import React, {forwardRef} from "react";
 import FeatureBoxTwo from "../../elements/FeatureBox/FeatureBoxTwo";
 import dataFeatures from "../../data/About/about-corporate-business.json";
 
-const WhoWeAreEight = () => (
-  <section className="main-section pb-70">
+const WhoWeAreEight = forwardRef(( {}, ref ) => (
+  <section ref={ref} className="main-section pb-70">
     <div className="container">
       <div className="row">
           <h3 className="container">TARJOUSPYYNTÖ</h3>
@@ -15,6 +15,6 @@ const WhoWeAreEight = () => (
       </div>
     </div>
   </section>
-);
+));
 
 export default WhoWeAreEight;

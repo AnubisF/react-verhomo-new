@@ -1,125 +1,60 @@
-import React from "react";
+import React, {forwardRef} from "react";
 import Loader from "../../components/Loader/Loader";
-import HeaderOne from "../../components/Header/HeaderOne";
-import PageTitleWidget from "../../components/PageTitle/PageTitleWidget";
-import FooterOne from "../../components/Footer/FooterOne";
 
-const GridColumns = () => (
+const GridColumns = forwardRef(( {}, ref ) => (
   <Loader>
-    <HeaderOne />
-    <PageTitleWidget title="Grid Columns" />
-    <section>
+    <section ref={ref}>
       <div className="container">
         <div className="row">
           <div className="col-md-12 mb-20">
-            <h4>Full Width</h4>
+            <h2>Katariina</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              ullamcorper risus nec neque ultrices convallis. In vel fringilla
-              lacus. Nunc sed eleifend nunc, a consectetur augue. Praesent et
-              ante non enim auctor condimentum sed sed erat. Donec nunc erat,
-              dignissim in mauris sit amet, varius lobortis ligula. Etiam quis
-              dolor at metus feugiat dapibus nec quis nisi. Sed dictum, orci ac
-              interdum lacinia, nisl nisl consectetur ante, id semper felis orci
-              eu neque. Sed ante lacus, vestibulum quis vestibulum et, sagittis
-              et ante.
+              Verhoomo Katariina tarjoaa monipuoliset verhoilupalvelut ammattitaidolla Oulun Karjasillalla.
+              Verstaalla vanhat sekä nykypäivän modernit huonekalut saavat uudet ilmeet asiakkaiden toiveita
+              kunnioittaen. Huonekalut päällystetään laadukkailla verhoilukankailla ja tarvittaessa huonekalujen
+              sisusmateriaalit uusitaan.
+              Verstaalla verhoillaan kodin tavallisten huonekalujen lisäksi myös julkisten tilojen huonekaluja, kuten
+              toimistotuoleja, ravintolakalusteita, sekä pankkikalusteita. Pidämme huolen myös ammattihuonekalujen
+              verhoilemisesta, kun kyseessä on hierontapöytä tai kampaamotuoli. Asuntovaunujen patjojen verhoilu
+              onnistuu yhtä mallikkaasti, kuin vaikkapa veneen patjojen verhoilu ja venekuomun korjaus.
+              Tyylihuonekalujen, kuten K-tuolien, Emma-tuolien ja Artekin vyötuolien, sekä nahkatuolien verhoilutyöt
+              tehdään ammattitaidolla kymmenien vuosien kokemuksella.
+              Perinteiset huonekalut verhoillaan perinteitä kunnioittaen. Jouset kunnostetaan tarvittaessa ja ne
+              sidotaan
+              uudelleen perinteisin menetelmin. Pehmusteet ja kangas uusitaan asiakkaan toivomuksen mukaan.
+              Erikoistyönä suunnittelemme ja ompelemme suojahuppuja ammattikäyttöön.
+              Jos vanha tai uudempikin vaate, ikkunaverho, huonekalu, veneen tai moottoripyörän penkin
+              pehmuste kaipaa pientä tai suurta kunnostusta, olet tervetullut asioimaan.
             </p>
           </div>
         </div>
         <hr className="mb-50 mt-50" />
         <div className="row">
           <div className="col-md-6 mb-20 col-sm-6">
-            <h4>One Half</h4>
+            <h2>Verhoilija</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
-              similique consectetur ducimus quod dignissimos maxime, eum
-              distinctio facere ab. Qui optio cum rem commodi eligendi fuga,
-              praesentium quaerat eveniet delectus.
+              Katariina on koulutukseltaan ompelija ja verhoilija, hän työskenteli pitkään ompelijana suuressa
+              muotitalossa. Muutettua Ouluun Katariina kouluttautui verhoilijaksi ja työskenteli Oulun
+              tunnetussa verhoilu- ja entisöintiyrityksessä.
+              Katariina perusti oman verhoomon vuonna 2012. Yrityksen palveluihin kuuluvat niin yksityisten
+              kotien kuin julkisten tilojen, ravintoloiden ja konttorien kalustojen verhoilu niiden perinteisen
+              tyylin mukaisesti. Perinteiseen verhoiluun kuuluu meriheinät, jousitukset, luonnonvanut ja
+              pehmusteiden kohennukset, uudempiin vaahtomuovi ja polyesterivanu. Materiaalit ja kankaat
+              valitaan kaluston iän, tyylin ja tietenkin myös asiakkaan mieltymyksen mukaan. Ennen työn
+              aloittamista suoritetaan työkohteen kuntoarvio.
             </p>
           </div>
           <div className="col-md-6 mb-20 col-sm-6">
-            <h4>One Half</h4>
+            <h2>Verhomo</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
-              similique consectetur ducimus quod dignissimos maxime, eum
-              distinctio facere ab. Qui optio cum rem commodi eligendi fuga,
-              praesentium quaerat eveniet delectus.
-            </p>
-          </div>
-        </div>
-        <hr className="mb-50 mt-50" />
-        <div className="row">
-          <div className="col-md-4 mb-20 col-sm-4">
-            <h4>One Third</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
-              similique consectetur ducimus quod dignissimos maxime, eum
-              distinctio facere ab. Qui optio cum rem commodi eligendi fuga,
-              praesentium quaerat eveniet delectus.
-            </p>
-          </div>
-          <div className="col-md-4 mb-20 col-sm-4">
-            <h4>One Third</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
-              similique consectetur ducimus quod dignissimos maxime, eum
-              distinctio facere ab. Qui optio cum rem commodi eligendi fuga,
-              praesentium quaerat eveniet delectus.
-            </p>
-          </div>
-          <div className="col-md-4 mb-20 col-sm-4">
-            <h4>One Third</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
-              similique consectetur ducimus quod dignissimos maxime, eum
-              distinctio facere ab. Qui optio cum rem commodi eligendi fuga,
-              praesentium quaerat eveniet delectus.
-            </p>
-          </div>
-        </div>
-        <hr className="mb-50 mt-50" />
-        <div className="row">
-          <div className="col-md-3 mb-20 col-sm-6">
-            <h4>One Fourth</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
-              similique consectetur ducimus quod dignissimos maxime, eum
-              distinctio facere ab. Qui optio cum rem commodi eligendi fuga,
-              praesentium quaerat eveniet delectus.
-            </p>
-          </div>
-          <div className="col-md-3 mb-20 col-sm-6">
-            <h4>One Fourth</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
-              similique consectetur ducimus quod dignissimos maxime, eum
-              distinctio facere ab. Qui optio cum rem commodi eligendi fuga,
-              praesentium quaerat eveniet delectus.
-            </p>
-          </div>
-          <div className="col-md-3 mb-20 col-sm-6">
-            <h4>One Fourth</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
-              similique consectetur ducimus quod dignissimos maxime, eum
-              distinctio facere ab. Qui optio cum rem commodi eligendi fuga,
-              praesentium quaerat eveniet delectus.
-            </p>
-          </div>
-          <div className="col-md-3 mb-20 col-sm-6">
-            <h4>One Fourth</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
-              similique consectetur ducimus quod dignissimos maxime, eum
-              distinctio facere ab. Qui optio cum rem commodi eligendi fuga,
-              praesentium quaerat eveniet delectus.
+              Verhoilutyön ohessa verstaalla suoritetaan myös vaatteiden korjausompelu. Verstaalla ommellaan
+              mm. asiakkaiden tuomat verhot, lyhennetään housujen lahkeet ja vaihdetaan vetoketjut.
             </p>
           </div>
         </div>
       </div>
     </section>
-    <FooterOne />
   </Loader>
-);
+));
 
 export default GridColumns;
