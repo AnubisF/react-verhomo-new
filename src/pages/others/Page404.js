@@ -10,16 +10,16 @@ const Page404 = () => (
         <div className="col-md-12">
           <div className="col-md-10 centerize-col text-center">
             <div className="four-zero-four-bg">
-              <h1 className="dark-color">404 ERROR</h1>
+              <h1 className="dark-color">404 VIRHE</h1>
             </div>
             <div className="content-box">
-              <h2 className="cardo-font">Look like you're lost</h2>
+              <h2 className="cardo-font">Näyttää siltä, että olet eksynyt </h2>
               <p className="cardo-font dark-color lead">
-                the page you are looking for not available!
+                etsimäsi sivu ei ole käytettävissä!
               </p>
               <p className="mt-30">
                 <Link to="/" className="btn btn-color btn-square">
-                  GO TO HOME
+                  Mene etusivulle
                 </Link>
               </p>
             </div>
