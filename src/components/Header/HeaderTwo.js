@@ -2,8 +2,6 @@ import React, {useState, useEffect, useCallback} from "react";
 import Scrollspy from "react-scrollspy";
 import Icofont from "react-icofont";
 import dataNav from "../../data/Navbar/nav-creativeone-data.json";
-import AttributeNav from "../Navs/AttributeNav";
-import SocialNav from "../Navs/SocialNav";
 import MainLogo from "../MainLogo";
 import {Link} from "react-router-dom";
 
@@ -83,9 +81,6 @@ const HeaderTwo = ({social, scrollToSection}) => {
                             ))}
                         </Scrollspy>
                     </div>
-                    <AttributeNav>
-                        <SocialNav items={social}/>
-                    </AttributeNav>
                 </div>
             </nav>
         </>

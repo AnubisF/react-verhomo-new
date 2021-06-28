@@ -50,12 +50,12 @@ const ContactForm = ({ title, tagline }) => {
             className="form-control"
             id="name"
             required="required"
-            placeholder="Your Name"
+            placeholder="Etunimi"
             data-error="Your Name is Required"
             value={inputs.name}
             onChange={handleInputChange}
           />
-          <label htmlFor="name">Name</label>
+          <label htmlFor="name">Etunimi</label>
           <div className="help-block with-errors mt-20"></div>
         </div>
         <div
@@ -69,13 +69,13 @@ const ContactForm = ({ title, tagline }) => {
             name="email"
             className="form-control"
             id="email"
-            placeholder="Your Email"
-            required="required"
-            data-error="Please Enter Valid Email"
+            placeholder="Sähköpostisi"
+            required="edellytetään"
+            data-error="Anna kelvollinen sähköpostiosoite "
             value={inputs.email}
             onChange={handleInputChange}
           />
-          <label htmlFor="email">Email</label>
+          <label htmlFor="email">Sähköpostisi</label>
           <div className="help-block with-errors mt-20"></div>
         </div>
         <div
@@ -89,13 +89,13 @@ const ContactForm = ({ title, tagline }) => {
             className="form-control"
             id="message"
             rows="7"
-            placeholder="Your Message"
+            placeholder="Viestisi"
             required
-            data-error="Please, Leave us a message"
+            data-error="Ole hyvä, jätä meille viesti"
             value={inputs.message}
             onChange={handleInputChange}
           ></textarea>
-          <label htmlFor="message">Message</label>
+          <label htmlFor="message">Viesti</label>
           <div className="help-block with-errors mt-20"></div>
         </div>
         <button
@@ -106,7 +106,7 @@ const ContactForm = ({ title, tagline }) => {
           data-aos={"fade-up"}
           data-aos-easing={"ease-in-sine"}
         >
-          Book Now
+          Lähetä viesti
         </button>
       </form>
     </>

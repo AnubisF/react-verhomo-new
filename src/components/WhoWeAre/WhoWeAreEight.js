@@ -2,7 +2,7 @@ import React, {forwardRef} from "react";
 import FeatureBoxTwo from "../../elements/FeatureBox/FeatureBoxTwo";
 import dataFeatures from "../../data/About/about-corporate-business.json";
 
-const WhoWeAreEight = forwardRef(( {}, ref ) => (
+const WhoWeAreEight = forwardRef(( props, ref ) => (
   <section ref={ref} className="main-section pb-70">
     <div className="container">
       <div className="row">

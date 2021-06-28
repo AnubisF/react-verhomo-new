@@ -1,7 +1,7 @@
 import React, {forwardRef} from "react";
 import Loader from "../../components/Loader/Loader";
 
-const Kauppa = forwardRef(( {}, ref ) => (
+const Kauppa = forwardRef(( props, ref ) => (
   <Loader>
     <section ref={ref}>
       <div className="container">

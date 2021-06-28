@@ -1,7 +1,7 @@
 import React, {forwardRef} from "react";
 import Loader from "../../components/Loader/Loader";
 
-const GridColumns = forwardRef(( {}, ref ) => (
+const GridColumns = forwardRef((props, ref ) => (
   <Loader>
     <section ref={ref}>
       <div className="container">

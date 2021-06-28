@@ -11,7 +11,7 @@ const FooterOne = () => (
             <div className="col-sm-6 col-md-4">
               <div className="widget widget-text">
                 <div className="logo logo-footer">
-                  <a href={`${process.env.PUBLIC_URL}/`}>
+                  <a href={`${process.env.PUBLIC_URL}/etusivu`}>
                     <img
                       className="logo logo-display"
                       src={logoFooter}
@@ -20,45 +20,41 @@ const FooterOne = () => (
                   </a>
                 </div>
                 <p>
-                  We are a fully in-house digital agency focusing on branding,
-                  marketing, web design and development with clients ranging
-                  from start-ups, Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit. Sed varius quam ut magna ultricies
-                  pellentesque.
+                  Verhoilutyöt tyylillä!
                 </p>
               </div>
             </div>
-            <div className="col-sm-6 col-md-2">
-              <div className="widget widget-links">
-                <h5 className="widget-title">Work With Us</h5>
-                <ul>
-                  <li>
-                    <a href="#!">Themeforest</a>
-                  </li>
-                  <li>
-                    <a href="#!">Audio Jungle</a>
-                  </li>
-                  <li>
-                    <a href="#!">Code Canyon</a>
-                  </li>
-                  <li>
-                    <a href="#!">Video Hive</a>
-                  </li>
-                  <li>
-                    <a href="#!">Envato Market</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+            {/*<div className="col-sm-6 col-md-2">*/}
+            {/*  <div className="widget widget-links">*/}
+            {/*    <h5 className="widget-title">Work With Us</h5>*/}
+            {/*    <ul>*/}
+            {/*      <li>*/}
+            {/*        <a href="#!">Themeforest</a>*/}
+            {/*      </li>*/}
+            {/*      <li>*/}
+            {/*        <a href="#!">Audio Jungle</a>*/}
+            {/*      </li>*/}
+            {/*      <li>*/}
+            {/*        <a href="#!">Code Canyon</a>*/}
+            {/*      </li>*/}
+            {/*      <li>*/}
+            {/*        <a href="#!">Video Hive</a>*/}
+            {/*      </li>*/}
+            {/*      <li>*/}
+            {/*        <a href="#!">Envato Market</a>*/}
+            {/*      </li>*/}
+            {/*    </ul>*/}
+            {/*  </div>*/}
+            {/*</div>*/}
             <div className="col-sm-6 col-md-2">
               <div className="widget widget-links">
                 <h5 className="widget-title">Useful Links</h5>
                 <ul>
                   <li>
-                    <a href={process.env.PUBLIC_URL}>About Us</a>
+                    <a href={process.env.PUBLIC_URL}>Etusivu</a>
                   </li>
                   <li>
-                    <a href={process.env.PUBLIC_URL}>Contact Us</a>
+                    <a href={process.env.PUBLIC_URL}>Katariina</a>
                   </li>
                   <li>
                     <a href={process.env.PUBLIC_URL}>Our Services</a>
@@ -74,27 +70,27 @@ const FooterOne = () => (
             </div>
             <div className="col-sm-6 col-md-4">
               <div className="widget widget-text widget-links">
-                <h5 className="widget-title">Contact Us</h5>
+                <h5 className="widget-title">Ota meihin yhteyttä</h5>
                 <ul>
                   <li>
                     <i className="icofont icofont-google-map"></i>
                     <a href={process.env.PUBLIC_URL}>
-                      Park Lane Llandrindod Wells, LD7 9QW
+                      Ketokatu 8 90140 Oulu.
                     </a>
                   </li>
                   <li>
                     <i className="icofont icofont-iphone"></i>
-                    <a href="tel:441632960290">+44 1632 960290</a>
+                    <a href="tel:441632960290">+045 851 77 10</a>
                   </li>
                   <li>
                     <i className="icofont icofont-mail"></i>
-                    <a href="mailto:helloscoda@gmail.com">
-                      helloscoda@gmail.com
+                    <a href="mailto:info@vokatariina.fi">
+                      info@vokatariina.fi
                     </a>
                   </li>
                   <li>
                     <i className="icofont icofont-globe"></i>
-                    <a href={process.env.PUBLIC_URL}>www.envato.com</a>
+                    <a href={process.env.PUBLIC_URL}>www.vokatariina.fi</a>
                   </li>
                 </ul>
               </div>
