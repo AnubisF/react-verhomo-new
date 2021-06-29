@@ -267,6 +267,14 @@ nav.navbar.bootsnav.navbar-transparent .logo {
     display: block;
 }
 
+.logo-footer img {
+    height: 150px;
+    width: 300px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    display: block;
+}
+
 nav .logo > a {
 	display: table-cell;
     vertical-align: middle;

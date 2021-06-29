@@ -8,19 +8,18 @@ const FooterOne = () => (
       <div className="footer-main">
         <div className="container">
           <div className="row">
-            <div className="col-sm-6 col-md-4">
+            <div className="col-sm-6 col-md-7">
               <div className="widget widget-text">
-                <div className="logo logo-footer">
+                <div className="logo-footer">
                   <a href={`${process.env.PUBLIC_URL}/etusivu`}>
                     <img
-                      className="logo logo-display"
+                      className="logo-footer"
                       src={logoFooter}
                       alt=""
                     />
                   </a>
                 </div>
                 <p>
-                  Verhoilutyöt tyylillä!
                 </p>
               </div>
             </div>
@@ -43,7 +42,7 @@ const FooterOne = () => (
                 </ul>
               </div>
             </div>
-            <div className="col-sm-6 col-md-4">
+            <div className="col-sm-6 col-md-3">
               <div className="widget widget-text widget-links">
                 <h5 className="widget-title">Ota meihin yhteyttä</h5>
                 <ul>
