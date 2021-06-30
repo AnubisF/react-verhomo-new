@@ -19,11 +19,10 @@ const ContactFormFive = () => {
             <div className="form-floating">
                 <input
                     type="text"
-                    name="nimi"
                     className="form-control"
                     id="name"
                     required="required"
-                    placeholder="Your Name"
+                    placeholder="name"
                     data-error="Your Name is Required"
                     value={inputs.name}
                     onChange={handleInputChange}
