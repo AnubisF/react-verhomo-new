@@ -1,6 +1,5 @@
 import React from "react";
 import logoFooter from "../../assets/images/logo-footer.png";
-import FooterCopyright from "./FooterCopyright";
 
 const FooterOne = () => (
   <>
@@ -69,12 +68,22 @@ const FooterOne = () => (
                 </ul>
               </div>
             </div>
+            <div className="">
+              <div className="copy-right text-center">
+                Copyright &copy; {new Date().getFullYear()} <a
+                  href="https://www.vokatariina.fi"> www.vokatariina.fi </a>
+              </div>
+              <div className="">
+                <div className="powered text-center">
+                  Powered by: <a href="https://www.masterbear.dev/"> www.masterbear.dev </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <FooterCopyright />
     </footer>
-    <div className="footer-height" style={{ height: "463px" }}></div>
+    <div className="footer-height" style={{ height: "400px" }}></div>
   </>
 );
 

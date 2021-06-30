@@ -27,6 +27,7 @@ const ContactFormFive = () => {
                     value={inputs.name}
                     onChange={handleInputChange}
                 />
+                <label htmlFor="name">Etunimi</label>
                 <div className="help-block with-errors mt-20"></div>
             </div>
             <div className="form-floating">
@@ -40,6 +41,7 @@ const ContactFormFive = () => {
                     value={inputs.phone}
                     onChange={handleInputChange}
                 />
+                <label htmlFor="name">Puhelin</label>
                 <div className="help-block with-errors mt-20"></div>
             </div>
 
@@ -55,6 +57,7 @@ const ContactFormFive = () => {
                     value={inputs.email}
                     onChange={handleInputChange}
                 />
+                <label htmlFor="name">Sähköposti</label>
                 <div className="help-block with-errors mt-20"></div>
             </div>
             <div className="form-floating">
@@ -68,6 +71,7 @@ const ContactFormFive = () => {
                     value={inputs.subject}
                     onChange={handleInputChange}
                 />
+                <label htmlFor="name">Aihe</label>
             </div>
 
             <div className="form-floating">
@@ -80,6 +84,7 @@ const ContactFormFive = () => {
                     value={inputs.file}
                     onChange={handleInputChange}
                 />
+                <label htmlFor="name">Tiedostosi</label>
                 <div className="help-block with-errors mt-20"></div>
             </div>
 
@@ -95,6 +100,7 @@ const ContactFormFive = () => {
             value={inputs.message}
             onChange={handleInputChange}
         ></textarea>
+                <label htmlFor="name">Viesti</label>
                 <div className="help-block with-errors mt-20"></div>
             </div>
             <button type="submit" name="submit" className="btn btn-color btn-circle">
