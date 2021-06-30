@@ -22,27 +22,39 @@ const ContactFormFive = () => {
                     className="form-control"
                     id="name"
                     required="required"
-                    placeholder="name"
+                    placeholder="Etunimi"
                     data-error="Your Name is Required"
                     value={inputs.name}
                     onChange={handleInputChange}
                 />
-                <label htmlFor="name">Nimi</label>
                 <div className="help-block with-errors mt-20"></div>
             </div>
+            <div className="form-floating">
+                <input
+                    type="text"
+                    name="phone"
+                    className="form-control"
+                    id="phone"
+                    placeholder="Puhelin"
+                    required
+                    value={inputs.phone}
+                    onChange={handleInputChange}
+                />
+                <div className="help-block with-errors mt-20"></div>
+            </div>
+
             <div className="form-floating">
                 <input
                     type="email"
                     name="email"
                     className="form-control"
                     id="email"
-                    placeholder="Your Email"
+                    placeholder="Sähköposti"
                     required="required"
                     data-error="Please Enter Valid Email"
                     value={inputs.email}
                     onChange={handleInputChange}
                 />
-                <label htmlFor="email">Email</label>
                 <div className="help-block with-errors mt-20"></div>
             </div>
             <div className="form-floating">
@@ -51,25 +63,23 @@ const ContactFormFive = () => {
                     name="subject"
                     className="form-control"
                     id="subject"
-                    placeholder="Your Subject"
+                    placeholder="Aihe"
                     required
                     value={inputs.subject}
                     onChange={handleInputChange}
                 />
-                <label htmlFor="subject">Aihe</label>
             </div>
+
             <div className="form-floating">
                 <input
-                    type="tel"
-                    name="phone"
+                    type="file"
+                    name="file"
                     className="form-control"
-                    id="phone"
-                    placeholder="Your Phone"
-                    required
-                    value={inputs.phone}
+                    id="file"
+                    placeholder="Tiedostosi"
+                    value={inputs.file}
                     onChange={handleInputChange}
                 />
-                <label htmlFor="phone">Puhelin</label>
                 <div className="help-block with-errors mt-20"></div>
             </div>
 
@@ -79,13 +89,12 @@ const ContactFormFive = () => {
             className="form-control"
             id="message-input-simple"
             rows="9"
-            placeholder="Your Message"
+            placeholder="Viesti"
             required
-            data-error="Please, Leave us a message"
+            data-error="Ole hyvä, jätä meille viesti "
             value={inputs.message}
             onChange={handleInputChange}
         ></textarea>
-                <label htmlFor="message">Viesti</label>
                 <div className="help-block with-errors mt-20"></div>
             </div>
             <button type="submit" name="submit" className="btn btn-color btn-circle">
