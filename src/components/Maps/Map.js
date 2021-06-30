@@ -6,8 +6,8 @@ import pinImg from "../../assets/images/pin.png";
 const Map = ({ classAppend }) => {
   const defaultProps = {
     center: {
-      lat: 40.716304,
-      lng: -73.995763,
+      lat: 65.00346,
+      lng: 25.48269,
     },
     zoom: 16,
   };
@@ -195,13 +195,13 @@ const Map = ({ classAppend }) => {
         defaultCenter={defaultProps.center}
         defaultZoom={defaultProps.zoom}
         bootstrapURLKeys={{
-          key: ''
+          key: 'AIzaSyAhmIUa5PX4wQfO3E8ffUVgoZM-jBgVMPc'
       }}
         options={mapOptions}
       >
         <Marker
           icon={pinImg}
-          position={{ lat: -73.995763, lng: 40.716304 }}
+          position={{ lat: 65.00346, lng: 25.48269 }}
         />
       </GoogleMap>
     </div>
