@@ -10,15 +10,15 @@ const data = [
         "company": "Katariina",
         "name": "Verhoomo & Ompelimo",
         "tel": "045 851 77 10",
-        "coordinates": [25.48278, 65.00344]
+        "coordinates": [25.48255, 65.00336]
     }
 ]
 const MapBox = () => {
     const mapContainer = useRef(null);
     const map = useRef(null);
-    const [lng, setLng] = useState(25.48278);
-    const [lat, setLat] = useState(65.00344);
-    const [zoom, setZoom] = useState(13);
+    const [lng, setLng] = useState(25.48255);
+    const [lat, setLat] = useState(65.00336);
+    const [zoom, setZoom] = useState(18);
 
     useEffect(() => {
         if (map.current) return; // initialize map only once
