@@ -9,14 +9,10 @@ import dataSlider from "../../data/Slider/creative-agency-data.json";
 import HeaderTwo from "../../components/Header/HeaderTwo";
 import OurServices from "../../components/OurServices/OurServices";
 import serviceOneImg from "../../assets/images/katariina.jpg";
-// import ClientsBrand from "../../components/ClientsBrand/ClientsBrand";
 import GridColumns from "../elements/GridColumns";
 import Kauppa from "../elements/Kauppa";
 import ContactSimple from "../contact/ContactSimple";
-// import GoogleMaps from "../elements/GoogleMaps";
 import FooterOne from "../../components/Footer/FooterOne";
-// import MapBox from "../../components/Maps/MapBox";
-// import ContactUs from "../../components/ContactUs/ContactUs";
 
 const KatarinaVerhoomo = () => {
     const etusivu = useRef();

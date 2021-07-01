@@ -13,12 +13,13 @@ const data = [
         "coordinates": [25.48255, 65.00336]
     }
 ]
+
 const MapBox = () => {
     const mapContainer = useRef(null);
     const map = useRef(null);
     const [lng, setLng] = useState(25.48255);
     const [lat, setLat] = useState(65.00336);
-    const [zoom, setZoom] = useState(18);
+    const [zoom, setZoom] = useState(17);
 
     useEffect(() => {
         if (map.current) return; // initialize map only once
@@ -31,7 +32,9 @@ const MapBox = () => {
 
         data.forEach((location) => {
             console.log(location)
-            new mapboxgl.Marker()
+            new mapboxgl.Marker({
+                color: "#ff0000",
+            })
                 .setLngLat(location.coordinates)
                 .setPopup(new mapboxgl.Popup({offset: 30})
                     .setHTML('<h4>' + location.company + '</h4>' +
