@@ -41,11 +41,6 @@ const MapBox = () => {
                 .addTo(map.current);
         });
 
-        // let marker = new mapboxgl.Marker()
-        //     .setLngLat([25.48278, 65.00344])
-        //     .setPopup(new mapboxgl.Popup({offset: 30})
-        //     .setHTML('<h3>' + 'Katariina' + '</h3>'))
-        //     .addTo(map.current);
     });
 
     useEffect(() => {
