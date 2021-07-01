@@ -31,7 +31,7 @@ const MapBox = () => {
 
         data.forEach((location) => {
             console.log(location)
-            let marker = new mapboxgl.Marker()
+            new mapboxgl.Marker()
                 .setLngLat(location.coordinates)
                 .setPopup(new mapboxgl.Popup({offset: 30})
                     .setHTML('<h4>' + location.company + '</h4>' +
