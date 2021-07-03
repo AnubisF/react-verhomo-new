@@ -2,12 +2,13 @@ import React from "react";
 import logoFooter from "../../assets/images/logo-footer.png";
 
 const FooterOne = () => (
+
   <>
     <footer className="footer" id="footer-fixed">
       <div className="footer-main">
         <div className="container">
           <div className="row">
-            <div className="col-sm-6 col-md-7">
+            <div className="col-sm-6 col-md-5">
               <div className="widget widget-text">
                 <div className="logo-footer">
                   <a href={`${process.env.PUBLIC_URL}/etusivu`}>
@@ -24,19 +25,44 @@ const FooterOne = () => (
             </div>
             <div className="col-sm-6 col-md-2">
               <div className="widget widget-links">
+                <h5 className="widget-title">Work With Us</h5>
+                <ul>
+                  <li>
+                    <a href="#!">Themeforest</a>
+                  </li>
+                  <li>
+                    <a href="#!">Audio Jungle</a>
+                  </li>
+                  <li>
+                    <a href="#!">Code Canyon</a>
+                  </li>
+                  <li>
+                    <a href="#!">Video Hive</a>
+                  </li>
+                  <li>
+                    <a href="#!">Envato Market</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-sm-6 col-md-2">
+              <div className="widget widget-links">
                 <h5 className="widget-title">Linkit</h5>
                 <ul>
                   <li>
-                    <a href={process.env.PUBLIC_URL}>Etusivu</a>
+                    <a href={`${process.env.PUBLIC_URL}/etusivu`}>Etusivu</a>
                   </li>
                   <li>
                     <a href={process.env.PUBLIC_URL}>Katariina</a>
                   </li>
                   <li>
-                    <a href={process.env.PUBLIC_URL}>Our Services</a>
+                    <a href={process.env.PUBLIC_URL}>Palvelut</a>
                   </li>
                   <li>
-                    <a href={process.env.PUBLIC_URL}>Terms &amp; Conditions</a>
+                    <a href={process.env.PUBLIC_URL}>Tarjouspyyntö</a>
+                  </li>
+                  <li>
+                    <a href={process.env.PUBLIC_URL}>Portfolio</a>
                   </li>
                 </ul>
               </div>
@@ -47,7 +73,7 @@ const FooterOne = () => (
                 <ul>
                   <li>
                     <i className="icofont icofont-google-map"></i>
-                    <a href={process.env.PUBLIC_URL}>
+                    <a href="https://g.page/Verhoomo-Oulu?share">
                       Ketokatu 8 90140 Oulu.
                     </a>
                   </li>
@@ -63,7 +89,7 @@ const FooterOne = () => (
                   </li>
                   <li>
                     <i className="icofont icofont-globe"></i>
-                    <a href={process.env.PUBLIC_URL}>www.vokatariina.fi</a>
+                    <a href="www.vokatariina.fi">www.vokatariina.fi</a>
                   </li>
                 </ul>
               </div>

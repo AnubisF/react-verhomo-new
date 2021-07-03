@@ -61,7 +61,7 @@ const KatarinaVerhoomo = () => {
         <Loader>
             <HeaderTwo scrollToSection={scrollToSection}/>
             <HeroSliderSection data={dataSlider} ref={etusivu}/>
-            <GridColumns ref={katariina}/>
+            <GridColumns ref={katariina} />
             <OurServices
                 // title="Mitä me teemme"
                 // tagline="We develop big ideas that sell."
