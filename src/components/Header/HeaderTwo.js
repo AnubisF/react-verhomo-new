@@ -5,7 +5,7 @@ import dataNav from "../../data/Navbar/nav-creativeone-data.json";
 import MainLogo from "../MainLogo";
 import {Link} from "react-router-dom";
 
-const HeaderTwo = ({social, scrollToSection}) => {
+const HeaderTwo = ({scrollToSection}) => {
     const [fixed, setFixed] = useState(false);
     const [collapse, setCollapse] = useState(false);
 
@@ -48,12 +48,16 @@ const HeaderTwo = ({social, scrollToSection}) => {
                         className={"navbar-toggler " + (collapse ? "collapsed" : "")}
                         data-toggle="dropdown"
                         data-target="#navbar-menu"
+                        aria-expanded="false"
                         onClick={showMenu}
                     >
                         <Icofont icon="navigation-menu"/>
                     </button>
                     <MainLogo showMenu={showMenu}/>
-                    <div className="collapse navbar-collapse" id="navbar-menu">
+                    <div className="navbar-collapse collapse"
+                         id="navbar-menu"
+                         aria-expanded="false"
+                    >
                         <Scrollspy
                             items={[
                                 "etusivu",

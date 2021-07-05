@@ -2,11 +2,11 @@ import React, {useEffect, useRef} from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Loader from "./../../components/Loader/Loader";
+import HeaderThree from "../../components/Header/HeaderThree";
 import HeroSliderSection from "../../components/Hero/HeroSliderSection";
 import WhoWeAreThree from "../../components/WhoWeAre/WhoWeAreEight";
 import Portfolio from "../../components/Portfolio/Portfolio";
 import dataSlider from "../../data/Slider/creative-agency-data.json";
-import HeaderTwo from "../../components/Header/HeaderTwo";
 import OurServices from "../../components/OurServices/OurServices";
 import serviceOneImg from "../../assets/images/katariina.jpg";
 import GridColumns from "../elements/GridColumns";
@@ -59,7 +59,7 @@ const KatarinaVerhoomo = () => {
 
     return (
         <Loader>
-            <HeaderTwo scrollToSection={scrollToSection}/>
+            <HeaderThree scrollToSection={scrollToSection}/>
             <HeroSliderSection data={dataSlider} ref={etusivu}/>
             <GridColumns ref={katariina} />
             <OurServices
