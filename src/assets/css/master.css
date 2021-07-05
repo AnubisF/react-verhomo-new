@@ -1956,7 +1956,7 @@ ul#portfolio-grid.two-column>li{
   position: fixed;
   outline: none !important;
   -webkit-backface-visibility: hidden;
-  backface-visibility: hidden; 
+  backface-visibility: hidden;
 }
 
 .mfp-container {
@@ -3992,7 +3992,7 @@ ul.footer-gallery li img {
 }
 
 .bg-flex-cover {
-    background-size: cover;
+    background-size: 100%;
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -6107,7 +6107,7 @@ ul#myTab {
 
 .product-slider .flex-control-thumbs {list-style: none; padding-left: 0;}
 .blockquote-custom {padding: 10px 20px; margin: 0 0 20px; font-size: 17.5px;}
-.blockquote-custom .blockquote-footer {    
+.blockquote-custom .blockquote-footer {
   display: block;
   font-size: 80%;
   line-height: 1.42857143;
@@ -6182,7 +6182,7 @@ ul {padding-left: 0 !important;}
   .demos .left_parallax {opacity: 0.3;}
   .demos .right_parallax {display: none;}
   button.navbar-toggler.collapsed:focus {box-shadow: none;}
-} 
+}
 @media (max-width: 767px) {
   .dropdown-menu.cart-list {top: 57px;}
   #demo-header-section .hero-text {padding-bottom: 50px !important; }

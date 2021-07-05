@@ -2,7 +2,7 @@
   { "id": 1, "title": "Etusivu", "link": "etusivu" },
   { "id": 2, "title": "Katariina", "link": "katariina" },
   { "id": 3, "title": "Palvelut", "link": "palvelut" },
-  { "id": 4, "title": "Tarjouspyyntö", "link": "offerrequest" },
+  { "id": 4, "title": "Tarjouspyyntö", "link": "tarjouspyntö" },
   { "id": 5, "title": "Portfolio", "link": "portfolio" },
   { "id": 6, "title": "Kauppa", "link": "kauppa" },
   { "id": 7, "title": "Yhteystiedot", "link": "yhteystiedot" }

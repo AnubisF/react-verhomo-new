@@ -15,6 +15,18 @@ const data = [
     }
 ]
 
+// Initialize the geolocate control.
+// const geolocate = new mapboxgl.GeolocateControl({
+//     positionOptions: {
+//         enableHighAccuracy: true
+//     },
+//     trackUserLocation: true
+// });
+
+//add navigation
+const nav = new mapboxgl.NavigationControl();
+
+
 const MapBox = () => {
     const mapContainer = useRef(null);
     const map = useRef(null);
@@ -30,6 +42,23 @@ const MapBox = () => {
             center: [lng, lat],
             zoom: zoom,
         });
+
+        // // Add the standart Geolocatecontrol to the map.
+        // map.current.addControl(geolocate);
+        // map.current.on('load', function() {
+        //     geolocate.trigger();
+        // });
+
+        // Add GeolocateControl to the map
+        map.current.addControl(new mapboxgl.GeolocateControl({
+            positionOptions: {
+                enableHighAccuracy: true
+            },
+            trackUserLocation: true
+        }));
+
+        // Add navigation to the map
+        map.current.addControl(nav, 'top-right');
 
         data.forEach((location) => {
             console.log(location)

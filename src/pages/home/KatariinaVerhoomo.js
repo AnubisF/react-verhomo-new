@@ -18,7 +18,7 @@ const KatarinaVerhoomo = () => {
     const etusivu = useRef();
     const katariina = useRef();
     const palvelut = useRef();
-    const offerrequest = useRef();
+    const tarjouspyntö = useRef();
     const portfolio = useRef();
     const kauppa = useRef();
     const yhteystiedot = useRef();
@@ -35,8 +35,8 @@ const KatarinaVerhoomo = () => {
             case "palvelut":
                 palvelut.current.scrollIntoView({behavior: "smooth"});
                 break;
-            case "offerrequest":
-                offerrequest.current.scrollIntoView({behavior: "smooth"});
+            case "tarjouspyntö":
+                tarjouspyntö.current.scrollIntoView({behavior: "smooth"})
                 break;
             case "portfolio":
                 portfolio.current.scrollIntoView({behavior: "smooth"});
@@ -68,7 +68,7 @@ const KatarinaVerhoomo = () => {
                 serviceImg={serviceOneImg}
                 ref={palvelut}
             />
-            <WhoWeAreThree ref={offerrequest}/>
+            <WhoWeAreThree ref={tarjouspyntö}/>
             {/*<ClientsBrand/>*/}
             <Portfolio
                 filter="true"

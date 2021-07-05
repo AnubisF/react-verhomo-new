@@ -66,7 +66,7 @@ const HeaderThree = ({scrollToSection}) => {
                                 "etusivu",
                                 "katarina",
                                 "palvelut",
-                                "offerrequest",
+                                "tarjouspyyntö",
                                 "portfolio",
                                 "kauppa",
                                 "yhteystiedot",
