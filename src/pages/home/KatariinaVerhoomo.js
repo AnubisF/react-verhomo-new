@@ -60,15 +60,8 @@ const KatarinaVerhoomo = () => {
             <HeaderThree scrollToSection={scrollToSection}/>
             <HeroSliderSection data={dataSlider} ref={etusivu}/>
             <GridColumns ref={katariina} />
-            {/*<OurServices*/}
-            {/*    // title="Mitä me teemme"*/}
-            {/*    // tagline="We develop big ideas that sell."*/}
-            {/*    serviceImg={serviceOneImg}*/}
-            {/*    ref={palvelut}*/}
-            {/*/>*/}
             <Palvelut ref={palvelut} />
             <Tarjous ref={tarjouspyntö}/>
-            {/*<ClientsBrand/>*/}
             <Portfolio
                 filter="true"
                 columns="4"
