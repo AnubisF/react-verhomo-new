@@ -3,7 +3,7 @@ import Icofont from "react-icofont";
 
 const FeatureBoxTwo = ({ icon, title, color, children, index }) => (
   <div
-    className="col-md-4 feature-box text-left mb-50 col-sm-6"
+    className="col-md-3 feature-box text-left mb-50 col-sm-6"
     data-aos={"fade-up"}
     data-aos-delay={`${index}00`}
     data-aos-duration={1000}

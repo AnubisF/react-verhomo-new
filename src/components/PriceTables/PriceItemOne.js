@@ -17,15 +17,14 @@ const PriceItemOne = ({
     data-aos={"fade-up"}
     data-aos-delay={`${index}00`}
     data-aos-duration={1000}
-    className={
-      "col-md-6 col-lg-3 pricing-table" +
+    className={"col-md-6 col-lg-5 pricing-table" +
       (featured === "true" ? "-featured" : "") +
       " col-sm-6"
     }
   >
     <div
       className={
-        "pricing-box " + (tableType === "rounded" ? "border-radius-25" : "")
+        "pricing-box" + (tableType === "rounded" ? "border-radius-20" : "")
       }
     >
       <Icofont icon={icon} />
@@ -39,17 +38,6 @@ const PriceItemOne = ({
           <li key={feature.id}>{feature.title}</li>
         ))}
       </ul>
-      <div className="pricing-box-bottom">
-        <a
-          href="!#"
-          className={
-            "btn btn-color " +
-            (btnType === "circle" ? "btn-circle" : "btn-rounded")
-          }
-        >
-          <span>{textButton}</span>
-        </a>
-      </div>
     </div>
   </div>
 );

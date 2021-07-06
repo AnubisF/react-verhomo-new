@@ -4,15 +4,13 @@ import "aos/dist/aos.css";
 import Loader from "./../../components/Loader/Loader";
 import HeaderThree from "../../components/Header/HeaderThree";
 import HeroSliderSection from "../../components/Hero/HeroSliderSection";
-import WhoWeAreThree from "../../components/WhoWeAre/WhoWeAreEight";
+import Tarjous from "../../components/WhoWeAre/Tarjous";
 import Portfolio from "../../components/Portfolio/Portfolio";
 import dataSlider from "../../data/Slider/creative-agency-data.json";
-import OurServices from "../../components/OurServices/OurServices";
-import serviceOneImg from "../../assets/images/katariina.jpg";
 import GridColumns from "../elements/GridColumns";
-import Kauppa from "../elements/Kauppa";
 import ContactSimple from "../contact/ContactSimple";
 import FooterOne from "../../components/Footer/FooterOne";
+import Palvelut from "../../components/Palvelut/Palvelut";
 
 const KatarinaVerhoomo = () => {
     const etusivu = useRef();
@@ -62,13 +60,14 @@ const KatarinaVerhoomo = () => {
             <HeaderThree scrollToSection={scrollToSection}/>
             <HeroSliderSection data={dataSlider} ref={etusivu}/>
             <GridColumns ref={katariina} />
-            <OurServices
-                // title="Mitä me teemme"
-                // tagline="We develop big ideas that sell."
-                serviceImg={serviceOneImg}
-                ref={palvelut}
-            />
-            <WhoWeAreThree ref={tarjouspyntö}/>
+            {/*<OurServices*/}
+            {/*    // title="Mitä me teemme"*/}
+            {/*    // tagline="We develop big ideas that sell."*/}
+            {/*    serviceImg={serviceOneImg}*/}
+            {/*    ref={palvelut}*/}
+            {/*/>*/}
+            <Palvelut ref={palvelut} />
+            <Tarjous ref={tarjouspyntö}/>
             {/*<ClientsBrand/>*/}
             <Portfolio
                 filter="true"
@@ -77,11 +76,8 @@ const KatarinaVerhoomo = () => {
                 space="true"
                 ref={portfolio}
             />
-            <Kauppa ref={kauppa}/>
+            {/*<Kauppa ref={kauppa}/>*/}
             <ContactSimple ref={yhteystiedot}/>
-            {/*<ContactUs />*/}
-            {/*<GoogleMaps />*/}
-            {/*<MapBox />*/}
             <FooterOne/>
         </Loader>
     );

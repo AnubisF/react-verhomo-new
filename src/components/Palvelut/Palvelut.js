@@ -1,17 +1,13 @@
-import React from "react";
-import dataFeatures from "../../data/About/about-corporate-business.json";
+import React, {forwardRef} from "react";
+import dataFeatures from "../../data/Palvelut/palvelut.json";
 import HeadingSection from "../../components/HeadingSection/HeadingSection";
 import FeatureBoxTwo from "../../elements/FeatureBox/FeatureBoxTwo";
 
-const WhoWeAreThree = () => (
-  <section>
+const Palvelut = forwardRef((props, ref) => (
+  <section ref={ref}>
     <div className="container">
       <div className="row">
-        <HeadingSection title="Palvelut" tagline="Kirjoita">
-          We are a fully in-house digital agency focusing on branding,
-          marketing, web design and development with clients ranging from
-          start-ups, Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Sed varius quam ut magna ultricies pellentesque.
+        <HeadingSection title="Palvelut" tagline="">
         </HeadingSection>
       </div>
       <div className="row mt-50">
@@ -28,6 +24,6 @@ const WhoWeAreThree = () => (
       </div>
     </div>
   </section>
-);
+));
 
-export default WhoWeAreThree;
+export default Palvelut;

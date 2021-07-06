@@ -1,5 +1,5 @@
 import React from "react";
-import PriceItemTwo from "./PriceItemTwo";
+import PriceItemTwo from "./PriceItemOne";
 import pricesData from "../../data/PriceTables/price-tables-data.json";
 import HeadingFour from "../HeadingSection/HeadingFour";
 
