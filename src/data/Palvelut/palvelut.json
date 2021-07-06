@@ -1,24 +1,18 @@
 [
   {
     "id": 1,
-    "title": "Ompelimo",
-    "text": "Verhoomo Katariina tarjoaa monipuoliset verhoilupalvelut ammattitaidolla Oulun Karjasillalla. Verstaalla vanhat sekä nykypäivän modernit huonekalut saavat uudet ilmeet asiakkaiden toiveita kunnioittaen. Huonekalut päällystetään laadukkailla verhoilukankailla ja tarvittaessa huonekalujen sisusmateriaalit uusitaan. Verstaalla verhoillaan kodin tavallisten huonekalujen lisäksi myös julkisten tilojen huonekaluja, kuten toimistotuoleja, ravintolakalusteita, sekä pankkikalusteita. Pidämme huolen myös ammattihuonekalujen verhoilemisesta, kun kyseessä on hierontapöytä tai kampaamotuoli. Asuntovaunujen patjojen verhoilu onnistuu yhtä mallikkaasti, kuin vaikkapa veneen patjojen verhoilu ja venekuomun korjaus. Tyylihuonekalujen, kuten K-tuolien, Emma-tuolien ja Artekin vyötuolien, sekä nahkatuolien verhoilutyöt tehdään ammattitaidolla kymmenien vuosien kokemuksella. Perinteiset huonekalut verhoillaan perinteitä kunnioittaen. Jouset kunnostetaan tarvittaessa ja ne sidotaan uudelleen perinteisin menetelmin. Pehmusteet ja kangas uusitaan asiakkaan toivomuksen mukaan. Erikoistyönä suunnittelemme ja ompelemme suojahuppuja ammattikäyttöön. Jos vanha tai uudempikin vaate, ikkunaverho, huonekalu, veneen tai moottoripyörän penkin pehmuste kaipaa pientä tai suurta kunnostusta, olet tervetullut asioimaan.",
-    "icon": "unique-idea"
-  },
-  {
-    "id": 2,
     "title": "Verhoomo",
     "text": "Verhoilutyön ohessa verstaalla suoritetaan myös vaatteiden korjausompelu. Verstaalla ommellaan mm. asiakkaiden tuomat verhot, lyhennetään housujen lahkeet ja vaihdetaan vetoketjut.",
     "icon": "rocket-alt-2"
   },
   {
-    "id": 3,
+    "id": 2,
     "title": "Verhoilumateriaalit",
     "text": "Laaja kangasvalikoima: Orient Occident, Henry Borg, Lauritzon’s ja Annala. Nahat Keinonahat Venekuomukangas Vaahtomuovit Ylijäämä kangas ja nahkapalat, vanut ja vaahtomuovipalat askarteluun.",
     "icon": "ui-calculator"
   },
   {
-    "id": 4,
+    "id": 3,
     "title": "Verhoilutarvikkeet",
     "text": "Napit. Meriheinä. PL-vanu. Harmaavanu. Langat. Sitomalanka. Jouset. Koristenaulat. Koristenauhat. Satulavyöt. Kumivyöt. Vetoketjut metreittäin. Juuttikangas. Myös paljon muita verhoilutarvikkeita tilauksesta",
     "icon": "basket"

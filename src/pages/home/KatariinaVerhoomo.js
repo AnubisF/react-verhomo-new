@@ -76,7 +76,6 @@ const KatarinaVerhoomo = () => {
                 space="true"
                 ref={portfolio}
             />
-            {/*<Kauppa ref={kauppa}/>*/}
             <ContactSimple ref={yhteystiedot}/>
             <FooterOne/>
         </Loader>
