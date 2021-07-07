@@ -3,18 +3,18 @@
     "id": 1,
     "title": "Verhoomo",
     "text": "Verhoilutyön ohessa verstaalla suoritetaan myös vaatteiden korjausompelu. Verstaalla ommellaan mm. asiakkaiden tuomat verhot, lyhennetään housujen lahkeet ja vaihdetaan vetoketjut.",
-    "icon": "rocket-alt-2"
+    "icon": "leaflet"
   },
   {
     "id": 2,
     "title": "Verhoilumateriaalit",
     "text": "Laaja kangasvalikoima: Orient Occident, Henry Borg, Lauritzon’s ja Annala. Nahat Keinonahat Venekuomukangas Vaahtomuovit Ylijäämä kangas ja nahkapalat, vanut ja vaahtomuovipalat askarteluun.",
-    "icon": "ui-calculator"
+    "icon": "bag"
   },
   {
     "id": 3,
     "title": "Verhoilutarvikkeet",
     "text": "Napit. Meriheinä. PL-vanu. Harmaavanu. Langat. Sitomalanka. Jouset. Koristenaulat. Koristenauhat. Satulavyöt. Kumivyöt. Vetoketjut metreittäin. Juuttikangas. Myös paljon muita verhoilutarvikkeita tilauksesta",
-    "icon": "basket"
+    "icon": "tools"
   }
 ]

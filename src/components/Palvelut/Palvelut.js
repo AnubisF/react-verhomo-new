@@ -1,7 +1,7 @@
 import React, {forwardRef} from "react";
 import dataFeatures from "../../data/Palvelut/palvelut.json";
 import HeadingSection from "../../components/HeadingSection/HeadingSection";
-import FeatureBoxTwo from "../../elements/FeatureBox/FeatureBoxTwo";
+import FeatureBoxTwo from "../../elements/FeatureBox/FeatureBoxPalvelut";
 
 const Palvelut = forwardRef((props, ref) => (
     <section ref={ref}>

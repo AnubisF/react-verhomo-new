@@ -4,13 +4,13 @@ import "aos/dist/aos.css";
 import Loader from "./../../components/Loader/Loader";
 import HeaderThree from "../../components/Header/HeaderThree";
 import HeroSliderSection from "../../components/Hero/HeroSliderSection";
+import Palvelut from "../../components/Palvelut/Palvelut";
 import Tarjous from "../../components/WhoWeAre/Tarjous";
 import Portfolio from "../../components/Portfolio/Portfolio";
 import dataSlider from "../../data/Slider/creative-agency-data.json";
 import GridColumns from "../elements/GridColumns";
 import ContactSimple from "../contact/ContactSimple";
 import FooterOne from "../../components/Footer/FooterOne";
-import Palvelut from "../../components/Palvelut/Palvelut";
 
 const KatarinaVerhoomo = () => {
     const etusivu = useRef();
