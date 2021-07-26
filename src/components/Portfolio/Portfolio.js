@@ -104,6 +104,8 @@ const Portfolio = forwardRef(
                             {isOpen && (
                                 <Lightbox
                                     mainSrc={require("../../assets/images/" + photo)}
+                                    nextSrc={require("../../assets/images/photo" + photo)}
+                                    // prevSrc={require("../../assets/images/photo" - photo)}
                                     onCloseRequest={() => closeLightbox()}
                                 />
                             )}
