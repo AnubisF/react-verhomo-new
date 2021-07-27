@@ -1,5 +1,7 @@
 import React, { forwardRef } from "react";
 import ContactFormFive from "./ContactFormFive";
+import WhatsAppWidget from "react-whatsapp-widget";
+import 'react-whatsapp-widget/dist/index.css'
 
 const ContactThree = forwardRef((props, ref) => (
   <section className="contact-us dark-bg" ref={ref}>
@@ -21,6 +23,12 @@ const ContactThree = forwardRef((props, ref) => (
             <span className="white-color">Ma - Pe: 9:00 - 17:00</span> <br />
             <span className="white-color">Lauantaisin olemme auki sopimuksen mukaan, sopimalla viimeistään edeltävänä päivänä numerosta: 045 851 77 10</span>
           </p>
+        </div>
+        <div className="col-md-4">
+          <WhatsAppWidget phoneNumber='+358443371413'
+                          message='Hello! 👋🏼 \n\nWhat can we do for you?'
+                          companyName='Verhoomo Ompelimo'
+                          sendButton='Send'/>
         </div>
       </div>
     </div>
