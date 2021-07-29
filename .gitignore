@@ -1,7 +1,11 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
+<<<<<<< HEAD
 node_modules
+=======
+/node_modules
+>>>>>>> d78e13ec (change color and size font)
 /.pnp
 .pnp.js
 
@@ -21,3 +25,14 @@ node_modules
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
+=======
+/.idea/runConfigurations.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/.gitignore
+/.idea/jsLibraryMappings.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/react-verhomo-new.iml
+/.idea/vcs.xml
+>>>>>>> d78e13ec (change color and size font)
