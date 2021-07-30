@@ -1,6 +1,6 @@
 import React from "react";
 import logoWhite from "../assets/images/logo-w.png";
-import logoBlack from "../assets/images/logo-b.png";
+import logoBlack from "../assets/images/logo-bb.png";
 
 const MainLogo = ({ collapse, showMenu }) => {
   return (
