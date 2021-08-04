@@ -11,7 +11,7 @@ const ContactThree = forwardRef((props, ref) => (
           <ContactFormFive />
         </div>
         <div className="col-md-4">
-          <h3 className="white-color">Postin sijainti</h3>
+          <h3 className="white-color">Yhteystiedot</h3>
           <address className="white-color">Ketokatu 8 90140 Oulu.<br />
             Verhoomo & ompelimo Katariina<br />
             <abbr title="Phone">Puh:</abbr> 045 851 77 10
