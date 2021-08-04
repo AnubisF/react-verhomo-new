@@ -42,7 +42,7 @@ const HeaderThree = ({scrollToSection}) => {
                 data-minus-value-mobile="55"
                 data-speed="1000"
             >
-                <SearchOverlay show={show} onClick={hideSearchForm}/>
+                <SearchOverlay show={show} onClick={hideSearchForm} />
                 <div className="container">
                     <button
                         type="button"
@@ -52,7 +52,7 @@ const HeaderThree = ({scrollToSection}) => {
                         aria-expanded="false"
                         onClick={() => showMenu()}
                     >
-                        <Icofont icon="navigation-menu"/>
+                        <Icofont icon="navigation-menu" />
                     </button>
                     <MainLogo showMenu={showMenu}/>
                     <div
