@@ -26,7 +26,7 @@ const PortfolioItem = ({
           groups ? "[" + groups.map((val) => `"${val}"`) + "]" : null
         }
       >
-        {/* <ReactWow animation="fadeIn"> */}
+         {/*<ReactWow animation="fadeIn">*/}
           <div
             className={
               "portfolio gallery-image-hover " +
@@ -63,7 +63,7 @@ const PortfolioItem = ({
               </ul>
             </div>
           </div>
-        {/* </ReactWow> */}
+         {/*</ReactWow>*/}
       </div>
     // </ReactWow>
   );
