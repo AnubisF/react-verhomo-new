@@ -25,7 +25,7 @@ const GridColumns = forwardRef((props, ref ) => (
             </p>
           </div>
           <div className="col-md-6 mb-20"
-               data-aos={"flip-right"}
+               data-aos={"zoom-in-left"}
                data-aos-delay={300}
                data-aos-duration={900}
                data-aos-easing={"linear"}>
