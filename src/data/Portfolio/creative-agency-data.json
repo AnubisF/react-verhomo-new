@@ -93,5 +93,45 @@
     "id": 19,
     "image": "portfolio/19.jpg",
     "groups": ["kaikki", ""]
+  },
+  {
+    "id": 20,
+    "image": "portfolio/20.jpg",
+    "groups": ["kaikki", ""]
+  },
+  {
+    "id": 21,
+    "image": "portfolio/21.jpg",
+    "groups": ["kaikki", ""]
+  },
+  {
+    "id": 22,
+    "image": "portfolio/22.jpg",
+    "groups": ["kaikki", ""]
+  },
+  {
+    "id": 23,
+    "image": "portfolio/23.jpg",
+    "groups": ["kaikki", ""]
+  },
+  {
+    "id": 24,
+    "image": "portfolio/24.jpg",
+    "groups": ["kaikki", "tuolit."]
+  },
+  {
+    "id": 25,
+    "image": "portfolio/25.jpg",
+    "groups": ["kaikki", ""]
+  },
+  {
+    "id": 26,
+    "image": "portfolio/26.jpg",
+    "groups": ["kaikki", ""]
+  },
+  {
+    "id": 27,
+    "image": "portfolio/27.jpg",
+    "groups": ["kaikki", "tuolit."]
   }
 ]
