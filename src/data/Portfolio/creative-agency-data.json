@@ -133,5 +133,20 @@
     "id": 27,
     "image": "portfolio/27.jpg",
     "groups": ["kaikki", "tuolit."]
+  },
+  {
+    "id": 28,
+    "image": "portfolio/28.jpg",
+    "groups": ["kaikki", ""]
+  },
+  {
+    "id": 29,
+    "image": "portfolio/29.jpg",
+    "groups": ["kaikki", ""]
+  },
+  {
+    "id": 30,
+    "image": "portfolio/30.jpg",
+    "groups": ["kaikki", "rahit"]
   }
 ]
