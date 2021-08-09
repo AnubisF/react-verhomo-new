@@ -1,97 +1,97 @@
 [
   {
     "id": 1,
-    "image": "portfolio/45.jpg",
+    "image": "portfolio/1.jpg",
     "groups": ["kaikki", "nojatuolit"]
   },
   {
     "id": 2,
-    "image": "portfolio/46.jpg",
+    "image": "portfolio/2.jpg",
     "groups": ["kaikki", "nojatuolit"]
   },
   {
     "id": 3,
-    "image": "portfolio/47.jpg",
+    "image": "portfolio/3.jpg",
     "groups": ["kaikki", "nojatuolit"]
   },
   {
     "id": 4,
-    "image": "portfolio/48.jpg",
-    "groups": ["kaikki", "print", "design"]
+    "image": "portfolio/4.jpg",
+    "groups": ["kaikki", "nojatuolit"]
   },
   {
     "id": 5,
-    "image": "portfolio/49.jpg",
+    "image": "portfolio/5.jpg",
     "groups": ["kaikki", "rahit"]
   },
   {
     "id": 6,
-    "image": "portfolio/50.jpg",
-    "groups": ["kaikki", "design", "web"]
+    "image": "portfolio/6.jpg",
+    "groups": ["kaikki", "nojatuolit"]
   },
   {
     "id": 7,
-    "image": "portfolio/52.jpg",
-    "groups": ["kaikki", "design", "branding"]
+    "image": "portfolio/7.jpg",
+    "groups": ["kaikki", "sohvat"]
   },
   {
     "id": 8,
-    "image": "portfolio/53.jpg",
-    "groups": ["kaikki", "design", "print"]
+    "image": "portfolio/8.jpg",
+    "groups": ["kaikki", "tuolit."]
   },
   {
     "id": 9,
-    "image": "portfolio/54.jpg",
-    "groups": ["kaikki", "design", "print"]
+    "image": "portfolio/9.jpg",
+    "groups": ["kaikki", ""]
   },
   {
     "id": 10,
-    "image": "portfolio/55.jpg",
-    "groups": ["kaikki", "design", "print"]
+    "image": "portfolio/10.jpg",
+    "groups": ["kaikki", ""]
   },
   {
     "id": 11,
-    "image": "portfolio/56.jpg",
-    "groups": ["kaikki", "design", "print"]
+    "image": "portfolio/11.jpg",
+    "groups": ["kaikki", ""]
   },
   {
     "id": 12,
-    "image": "portfolio/57.jpg",
-    "groups": ["kaikki", "design", "print"]
+    "image": "portfolio/12.jpg",
+    "groups": ["kaikki", ""]
   },
   {
     "id": 13,
-    "image": "portfolio/58.jpg",
-    "groups": ["kaikki", "design", "print"]
+    "image": "portfolio/13.jpg",
+    "groups": ["kaikki", ""]
   },
   {
     "id": 14,
-    "image": "portfolio/59.jpg",
-    "groups": ["kaikki", "design", "print"]
+    "image": "portfolio/14.jpg",
+    "groups": ["kaikki", "tuolit."]
   },
   {
     "id": 15,
-    "image": "portfolio/60.jpg",
-    "groups": ["kaikki", "design", "print"]
+    "image": "portfolio/15.jpg",
+    "groups": ["kaikki", "tuolit."]
   },
   {
     "id": 16,
-    "image": "portfolio/61.jpg",
-    "groups": ["kaikki", "design", "print"]
+    "image": "portfolio/16.jpg",
+    "groups": ["kaikki", ""]
   },
   {
     "id": 17,
-    "image": "portfolio/62.jpg",
-    "groups": ["kaikki", "design", "print"]
+    "image": "portfolio/17.jpg",
+    "groups": ["kaikki", ""]
   },
   {
     "id": 18,
-    "image": "portfolio/63.jpg",
-    "groups": ["kaikki", "design", "print"]
+    "image": "portfolio/18.jpg",
+    "groups": ["kaikki", "tuolit."]
   },
   {
     "id": 19,
-    "image": "portfolio/64.jpg",
-    "groups": ["kaikki", "design", "print"]
+    "image": "portfolio/19.jpg",
+    "groups": ["kaikki", ""]
   }
 ]
