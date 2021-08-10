@@ -91,7 +91,37 @@
     "title": "",
     "tagline": "",
     "text": "",
-    "image": "slides/slide-bg-5.jpg",
+    "image": "slides/slide-bg-6.jpg",
+    "buttons": [
+      {
+        "id": 1,
+        "text": "",
+        "link": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "",
+    "tagline": "",
+    "text": "",
+    "image": "slides/slide-bg-7.jpg",
+    "buttons": [
+      {
+        "id": 1,
+        "text": "",
+        "link": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "",
+    "tagline": "",
+    "text": "",
+    "image": "slides/slide-bg-8.jpg",
     "buttons": [
       {
         "id": 1,
