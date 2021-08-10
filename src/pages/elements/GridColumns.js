@@ -9,9 +9,10 @@ const GridColumns = forwardRef((props, ref ) => (
         <div className="row mt-20">
           <h1>Katariina</h1>
           <div className="col-md-6 mt-15 mb-20"
-               data-aos={"zoom-in-right"}
-               data-aos-delay={300}
-               data-aos-duration={1000}>
+               data-aos={"fade-up"}
+               data-aos-delay={250}
+               data-aos-duration={1000}
+               data-aos-easing={"linear"}>
             <p>
               Katariina on koulutukseltaan ompelija ja verhoilija, hän työskenteli pitkään ompelijana suuressa
               muotitalossa. Muutettua Ouluun Katariina kouluttautui verhoilijaksi ja työskenteli Oulun
@@ -25,9 +26,9 @@ const GridColumns = forwardRef((props, ref ) => (
             </p>
           </div>
           <div className="col-md-6 mb-20"
-               data-aos={"zoom-in-left"}
-               data-aos-delay={300}
-               data-aos-duration={900}
+               data-aos={"fade-up"}
+               data-aos-delay={250}
+               data-aos-duration={1000}
                data-aos-easing={"linear"}>
             <img
                 className="mt-15"
