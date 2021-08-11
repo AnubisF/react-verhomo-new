@@ -25,10 +25,11 @@ const ContactThree = forwardRef((props, ref) => (
           </p>
         </div>
         <div className="col-md-4">
-          <WhatsAppWidget phoneNumber='+358443371413'
-                          message='Hello! 👋🏼 \n\nWhat can we do for you?'
-                          companyName='Verhoomo Ompelimo'
-                          sendButton='Send'/>
+          <WhatsAppWidget phoneNumber='+358458517710'
+                          textReplyTime='Vastaa tyypillisesti päivässä'
+                          message='Moi! 👋🏼?'
+                          companyName='Katariina'
+                          sendButton='Lähettää'/>
         </div>
       </div>
     </div>

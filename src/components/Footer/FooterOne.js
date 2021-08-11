@@ -28,10 +28,10 @@ const FooterOne = () => (
                 <h5 className="widget-title">Linkit</h5>
                 <ul>
                   <li>
-                    <a href={`${process.env.PUBLIC_URL}/etusivu`}>Etusivu</a>
+                    <a href={`${process.env.PUBLIC_URL}/Etusivu`}>Etusivu</a>
                   </li>
                   <li>
-                    <a href={process.env.PUBLIC_URL}>Katariina</a>
+                    <a href={`${process.env.PUBLIC_URL}/Katarina`}>Katariina</a>
                   </li>
                   <li>
                     <a href={process.env.PUBLIC_URL}>Palvelut</a>
