@@ -3231,8 +3231,8 @@ a.readmore > span {
    background-color: #232323;
 }
 
-.copy-right{margin-top:5px;color:#fff;}
-.powered{margin-top:5px;color:#fff;}
+.copy-right{margin-top:3px;color:#fff;}
+.powered{margin-top:3px;color:#fff;}
 
 .footer-copyright ul.social-media{
   float:left;
@@ -3259,9 +3259,6 @@ a.readmore > span {
 .footer-copyright ul.social-media li a:hover{
   color: var(--main-color);
 }
-
-
-
 
 .flat-footer ul.social-media{
   float:none;
@@ -3710,7 +3707,6 @@ ul.footer-gallery li img {
     height: 100%;
     width: 100%;
     position: relative;
-    background-color: rgba(34, 34, 37, 0.45);
     z-index: 200;
 }
 

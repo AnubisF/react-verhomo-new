@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import React, {useState, useCallback} from "react";
 import Scrollspy from "react-scrollspy";
 import Icofont from "react-icofont";
@@ -5,23 +6,24 @@ import dataNav from "../../data/Navbar/nav-construction.json";
 import AttributeNav from "../Navs/AttributeNav";
 import SearchOverlay from "../../elements/SearchOverlay";
 import MainLogo from "../MainLogo";
-import SearchItem from "../../elements/SearchItem";
+// import WhatsAppWidget from "react-whatsapp-widget";
+// import 'react-whatsapp-widget/dist/index.css'
 
 const HeaderThree = ({scrollToSection}) => {
     const [show, setShow] = useState(false);
     const [collapse, setCollapse] = useState(false);
 
-    const resizeForm = useCallback(() => {
-        let wHeight = window.innerHeight;
-        const searchForm = document.getElementById("fullscreen-searchform");
-        searchForm.style.top = wHeight / 2 + "px";
-    }, []);
+    // const resizeForm = useCallback(() => {
+    //     let wHeight = window.innerHeight;
+    //     const searchForm = document.getElementById("fullscreen-searchform");
+    //     searchForm.style.top = wHeight / 2 + "px";
+    // }, []);
 
-    const showSearchForm = (e) => {
-        e.preventDefault();
-        setShow(true);
-        resizeForm();
-    };
+    // const showSearchForm = (e) => {
+    //     e.preventDefault();
+    //     setShow(true);
+    //     resizeForm();
+    // };
 
     const hideSearchForm = (e) => {
         e.preventDefault();
@@ -89,9 +91,9 @@ const HeaderThree = ({scrollToSection}) => {
                         </ul>
                     </div>
                     <AttributeNav>
-                        <ul className="custom-search">
-                            <SearchItem showSearchForm={showSearchForm}/>
-                        </ul>
+                        {/*<ul className="custom-search">*/}
+                        {/*    <SearchItem showSearchForm={showSearchForm}/>*/}
+                        {/*</ul>*/}
                     </AttributeNav>
                 </div>
             </nav>

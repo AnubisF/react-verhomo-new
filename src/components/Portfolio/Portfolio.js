@@ -101,12 +101,12 @@ const Portfolio = forwardRef(
                                         />
                                     ))}
                             </div>
-                            {isOpen && (
-                                <Lightbox
-                                    mainSrc={require("../../assets/images/" + photo)}
-                                    onCloseRequest={() => closeLightbox()}
-                                />
-                            )}
+                                {isOpen && (
+                                    <Lightbox
+                                        mainSrc={require("../../assets/images/" + photo)}
+                                        onCloseRequest={() => closeLightbox()}
+                                    />
+                                )}
                         </div>
                     </div>
                 </div>

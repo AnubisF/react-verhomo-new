@@ -78,6 +78,14 @@ const FooterOne = () => (
                     <i className="icofont icofont-globe"></i>
                     <a href="www.vokatariina.fi">www.vokatariina.fi</a>
                   </li>
+                  <li>
+                    <i className="icofont icofont-facebook"></i>
+                    <a href="https://www.facebook.com/vokatariina">Facebook</a>
+                  </li>
+                  <li>
+                    <i className="icofont icofont-instagram"></i>
+                    <a href="https://www.facebook.com/vokatariina">Instagram</a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -96,7 +104,7 @@ const FooterOne = () => (
         </div>
       </div>
     </footer>
-    <div className="footer-height" style={{ height: "400px" }}></div>
+    <div className="footer-height" style={{ height: "430px" }}></div>
   </>
 );
 
