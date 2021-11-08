@@ -89,7 +89,7 @@ const FooterOne = () => (
                 </ul>
               </div>
             </div>
-            <div className="">
+            <div className="container">
               <div className="copy-right text-center">
                 Copyright &copy; {new Date().getFullYear()} <a
                   href="https://www.vokatariina.fi"> www.vokatariina.fi </a>
