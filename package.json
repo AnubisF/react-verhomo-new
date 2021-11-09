@@ -1,5 +1,5 @@
 {
-  "name": "scoda",
+  "name": "verhoomo-ompelimo-katarina",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,6 +14,7 @@
     "google-map-react": "^2.1.9",
     "gsap": "^3.6.1",
     "html-react-parser": "^1.2.6",
+    "http-proxy-middleware": "^2.0.1",
     "lax.js": "^1.2.5",
     "mapbox-gl": "^2.4.0",
     "rc-collapse": "^3.1.0",
@@ -46,13 +47,15 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
   },
+  "homepage": "https://vokatariina.fi/new/",
+  "proxy": "https://vokatariina.fi/new/",
   "browserslist": {
     "production": [
       ">0.2%",
