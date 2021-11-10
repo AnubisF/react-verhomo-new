@@ -75,7 +75,7 @@ const HeaderThree = ({scrollToSection}) => {
                             ]}
                             currentClassName="active"
                             className="nav navbar-nav navbar-right nav-scrollspy-onepage"
-                            data-in="fadeInLeft"
+                            data-in="fadeInRight"
                         >
                             {dataNav.map((item) => (
                                 <li key={item.id}>

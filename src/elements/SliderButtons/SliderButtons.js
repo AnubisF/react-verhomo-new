@@ -10,7 +10,7 @@ const SliderButtons = ({buttons}) => {
       >
         <span>
           {button.text}
-          <i className="icofont icofont-arrow-right"></i>
+          {/*<i className="icofont icofont-arrow-right"></i>*/}
         </span>
       </a>
     ))

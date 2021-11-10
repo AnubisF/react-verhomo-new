@@ -4,7 +4,7 @@ module.exports = function(app) {
     app.use(
         '/api',
         createProxyMiddleware({
-            target: 'https://vokatariina.fi/new/',
+            target: 'https://vokatariina.fi',
             changeOrigin: true,
         })
     );

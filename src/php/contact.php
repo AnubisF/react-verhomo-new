@@ -12,7 +12,7 @@ if ($_POST)
 
 	http_response_code(200);
 	$subject = $_POST['fname'];
-	$to = "artemii.vinogradov@gmail.com";
+	$to = "info@vokatariina.fi";
 	$from = $_POST['email'];
 
 	// data
