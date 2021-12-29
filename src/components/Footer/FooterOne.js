@@ -84,7 +84,7 @@ const FooterOne = () => (
                   </li>
                   <li>
                     <i className="icofont icofont-instagram"></i>
-                    <a href="https://www.facebook.com/vokatariina">Instagram</a>
+                    <a href="https://www.instagram.com/vokatariina/">Instagram</a>
                   </li>
                 </ul>
               </div>
