@@ -12,7 +12,7 @@ const ContactFormFive = () => {
         <form
             name="contact-form"
             id="contact-form"
-            action="https://vokatariina.fi/new/php/contact.php"
+            action="https://vokatariina.fi/php/contact.php"
             method="POST"
         >
             <div className="messages"></div>
