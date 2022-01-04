@@ -10,7 +10,7 @@ const ContactSimple = forwardRef((props, ref) => (
       <section className="pt-0 pb-0 map-section">
         <MapBox classAppend="wide" />
       </section>
-      <ClientsBrand />
+      {/*<ClientsBrand />*/}
     </Loader>
 ));
 
