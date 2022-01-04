@@ -32,6 +32,7 @@
     "react-masonry-css": "^1.0.16",
     "react-move": "^6.1.0",
     "react-router-dom": "^5.1.2",
+    "react-router-sitemap": "^1.2.0",
     "react-scripts": "^2.1.8",
     "react-scrollspy": "^3.4.2",
     "react-slick": "^0.28.1",
@@ -54,8 +55,8 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "https://vokatariina.fi/new/",
-  "proxy": "https://vokatariina.fi/new/",
+  "homepage": "https://vokatariina.fi/",
+  "proxy": "https://vokatariina.fi/",
   "browserslist": {
     "production": [
       ">0.2%",
