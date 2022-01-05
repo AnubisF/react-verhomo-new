@@ -23,7 +23,7 @@ const ContactFormFive = () => {
                     id="name"
                     required="required"
                     placeholder="Etunimi"
-                    data-error="Your Name is Required"
+                    data-error="Nimesi on pakollinen "
                     value={inputs.name}
                     onChange={handleInputChange}
                 />
