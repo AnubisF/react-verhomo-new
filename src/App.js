@@ -27,7 +27,7 @@ function App() {
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Ompelimo&Verhomo Katariina</title>
-                <meta name="description" content="App Description" />
+                <meta name="description" content="Ompelimo & Verhomo Katariina Oulu" />
                 <meta name="theme-color" content="#008f68" />
             </Helmet>
         </div>
