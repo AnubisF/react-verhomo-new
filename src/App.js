@@ -4,13 +4,10 @@ import {Helmet} from "react-helmet";
 
 // Home pages
 import KatariinaVerhoomo from "./pages/home/KatariinaVerhoomo";
-
 // Pages
 import Page404 from "./pages/others/Page404";
-
 // Elements
 import ScrollToTop from "./helpers/ScrollToTop";
-
 function App() {
 
     return (
