@@ -40,6 +40,8 @@ function App() {
                 <meta name="description" content="verhoilija oulu" />
                 <meta name="description" content="autoverhoomo oulu" />
                 <meta name="description" content="huonekalujen entisöinti oulu" />
+                <meta name="description" content="oulu ompelimo" />
+                <meta name="description" content="Orient Occident, Nevotex, Muovikum, Lauritzon’s, Annala." />
                 <meta name="theme-color" content="#008f68" />
             </Helmet>
         </div>
