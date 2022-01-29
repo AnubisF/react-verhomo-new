@@ -28,6 +28,18 @@ function App() {
                 <meta charSet="utf-8" />
                 <title>Ompelimo&Verhomo Katariina</title>
                 <meta name="description" content="Ompelimo & Verhomo Katariina Oulu" />
+                <meta name="description" content="Katariina Oulu" />
+                <meta name="description" content="Katariina" />
+                <meta name="description" content="Ompelimo" />
+                <meta name="description" content="Verhomo" />
+                <meta name="description" content="verhoomo oulu" />
+                <meta name="description" content="verhoomo oulu joutsensilta" />
+                <meta name="description" content="verhoilu oulu" />
+                <meta name="description" content="verhoiluliike oulu" />
+                <meta name="description" content="huonekalujen verhoilu oulu" />
+                <meta name="description" content="verhoilija oulu" />
+                <meta name="description" content="autoverhoomo oulu" />
+                <meta name="description" content="huonekalujen entisöinti oulu" />
                 <meta name="theme-color" content="#008f68" />
             </Helmet>
         </div>
