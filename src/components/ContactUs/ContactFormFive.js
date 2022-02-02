@@ -74,7 +74,7 @@ const ContactFormFive = () => {
                 <label htmlFor="name">Aihe</label>
             </div>
 
-            //disable send attach file
+            {/*//disable send attach file*/}
             {/*<div className="form-floating">*/}
             {/*    <input*/}
             {/*        type="file"*/}
