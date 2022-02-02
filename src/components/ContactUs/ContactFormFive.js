@@ -74,19 +74,20 @@ const ContactFormFive = () => {
                 <label htmlFor="name">Aihe</label>
             </div>
 
-            <div className="form-floating">
-                <input
-                    type="file"
-                    name="file"
-                    className="form-control"
-                    id="file"
-                    placeholder="Tiedostosi"
-                    value={inputs.file}
-                    onChange={handleInputChange}
-                />
-                <label htmlFor="name">Tiedostosi</label>
-                <div className="help-block with-errors mt-20"></div>
-            </div>
+            //disable send attach file
+            {/*<div className="form-floating">*/}
+            {/*    <input*/}
+            {/*        type="file"*/}
+            {/*        name="file"*/}
+            {/*        className="form-control"*/}
+            {/*        id="file"*/}
+            {/*        placeholder="Tiedostosi"*/}
+            {/*        value={inputs.file}*/}
+            {/*        onChange={handleInputChange}*/}
+            {/*    />*/}
+            {/*    <label htmlFor="name">Tiedostosi</label>*/}
+            {/*    <div className="help-block with-errors mt-20"></div>*/}
+            {/*</div>*/}
 
             <div className="form-floating">
         <textarea
